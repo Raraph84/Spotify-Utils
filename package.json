@@ -1,0 +1,13 @@
+{
+  "name": "spotify-utils",
+  "version": "1.0.0",
+  "description": "Des scripts JavaScript simples pour Spotify",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Raraph84",
+  "license": "ISC",
+  "dependencies": {
+    "raraph84-lib": "^2.12.2",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
