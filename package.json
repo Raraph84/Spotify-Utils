@@ -7,7 +7,7 @@
   "author": "Raraph84",
   "license": "ISC",
   "dependencies": {
-    "raraph84-lib": "^2.12.2",
+    "raraph84-lib": "^2.21.0",
     "spotify-web-api-node": "^5.0.2"
   }
 }
