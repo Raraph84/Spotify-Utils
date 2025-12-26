@@ -1,10 +1,11 @@
+const { HttpServer } = require("raraph84-lib");
 const SpotifyWebApi = require("spotify-web-api-node");
-const { HttpServer, getConfig } = require("raraph84-lib");
-const config = getConfig(__dirname);
+
+require("dotenv").config({ quiet: true });
 
 const spotifyApi = new SpotifyWebApi({
-    clientId: config.clientId,
-    clientSecret: config.clientSecret,
+    clientId: process.env.SPOTIFY_CLIENT_ID,
+    clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
     redirectUri: "http://127.0.0.1:8080/callback"
 });
 
